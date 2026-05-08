@@ -64,6 +64,7 @@ Feel free to send in a PR to add your application here!
  - bfg
  - cache-migration
  - catscript
+ - cellar
  - cfr
  - clojure
  - cmta
