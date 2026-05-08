@@ -1,0 +1,16 @@
+{
+  "repositories": [
+    "central"
+  ],
+  "dependencies": [
+    "org.virtuslab:cellar-cli_3:latest.release"
+  ],
+  "launcherType": "graalvm-native-image",
+  "prebuiltBinaries": {
+    "x86_64-pc-linux": "gz+https://github.com/VirtusLab/cellar/releases/download/v${version}/cellar-${version}-linux-x86_64.tar.gz!cellar",
+    "aarch64-pc-linux": "gz+https://github.com/VirtusLab/cellar/releases/download/v${version}/cellar-${version}-linux-aarch64.tar.gz!cellar",
+    "x86_64-apple-darwin": "gz+https://github.com/VirtusLab/cellar/releases/download/v${version}/cellar-${version}-macos-x86_64.tar.gz!cellar",
+    "aarch64-apple-darwin": "gz+https://github.com/VirtusLab/cellar/releases/download/v${version}/cellar-${version}-macos-arm64.tar.gz!cellar"
+  },
+  "mainClass": "cellar.cli.CellarApp?"
+}
